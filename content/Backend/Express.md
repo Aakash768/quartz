@@ -104,7 +104,7 @@ Middleware functions take 3 arguments: the ***request object**, the ***respons
 Express JS offers different types of middleware and you should choose the middleware on the basis of functionality required.
 
 - ***Application-level middleware:** Bound to the entire application using **app.use()** or **app.method** and executes for all routes.
-- ****outer-level middleware**: Associated with specific routes using **router.use()** or **router.method** and executes for routes defined within that router.
+- **outer-level middleware**: Associated with specific routes using **router.use()** or **router.method** and executes for routes defined within that router.
 - ***Error-handling middleware:**** Handles errors during the request-response cycle. Defined with four parameters (err, req, res, next).
 - ***Built-in middleware:** Provided by Express (e.g., express.static, express.json, etc.).
 - ***Third-party middleware***: Developed by external packages (e.g., body-parser, morgan, etc.).
