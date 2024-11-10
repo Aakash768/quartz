@@ -1,3 +1,7 @@
+---
+date: 4-11-2024
+---
+
 ### What is Data Storage?
 
 Data storage in databases is where information is kept, organized, and made easily accessible. Think of it as a structured way to store data, so you can retrieve, update, or delete it as needed.
